@@ -1,12 +1,12 @@
 variable "project" {
   type        = string
-  description = "ID Google project"
+  description = "Google project ID"
   default     = "default"
 }
 
 variable "region" {
   type        = string
-  description = "Region Google project"
+  description = "Region"
   default     = "us-west1"
 }
 
