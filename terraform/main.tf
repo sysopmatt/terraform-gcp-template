@@ -1,7 +1,7 @@
 
 terraform {
   backend "gcs" {
-    prefix = "template" # THIS IS THE FOLDER IN THE BUCKET
+    prefix = "terraform-gcp-template" # THIS IS THE FOLDER IN THE BUCKET
   }
 }
 
